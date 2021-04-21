@@ -1,12 +1,12 @@
 {
   "name": "multiprocessing-heroku-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "multiprocessing using nodejs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "sahil mor",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"

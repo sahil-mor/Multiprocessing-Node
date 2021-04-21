@@ -10,7 +10,6 @@ function isPrime(num){
     for(var i = 3 ; i < num ; i++){
         if( num % i == 0 ){
             response.isPrime = false
-            console.log("i = " + i)
             endTime = new Date()
             break;
         }
