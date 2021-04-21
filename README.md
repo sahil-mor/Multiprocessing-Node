@@ -24,7 +24,7 @@ It includes 3 javascript files - index.js, isPrime.js and isPrimeFunc.js. <br />
 3) Run npm start.<br />
 4) Then visit localhost:3000 and give any number as parameter to home or /blocked route and you get response.<br /> 
 5) Try with number - 29355126551 as parameter and open other tab give other number, it will work fine. <br />
-6) But if you give 29355126551, this number to /blocked route as parameter and then try to check for any other number, it will not work as it handles process one by one, even home route will not work as well as parent process is still busy in handling earlier request. <br /> 
+6) But if you give 29355126551, this number to /blocked route as parameter and then try to check for any other number, it will not work as it handles process one by one, even home route will not work as well, as parent process is still busy in handling earlier request. <br /> 
 
 <br />
 
